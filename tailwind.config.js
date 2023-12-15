@@ -7,7 +7,11 @@ module.exports = {
   ],
   darkMode: 'class',
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        body: 'Open Sans',
+      }
+    },
   },
   plugins: [
     require('@tailwindcss/forms'),
